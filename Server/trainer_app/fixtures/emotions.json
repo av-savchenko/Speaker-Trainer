@@ -1,0 +1,44 @@
+[
+    {
+      "model": "trainer_app.Emotions",
+      "fields": {
+        "id": 1,
+        "name": "Happiness"
+      }
+    },
+    {
+        "model": "trainer_app.Emotions",
+        "fields": {
+          "id": 2,
+          "name": "Anger"
+        }
+    },
+    {
+        "model": "trainer_app.Emotions",
+        "fields": {
+          "id": 3,
+          "name": "Disgust"
+        }
+    },
+    {
+        "model": "trainer_app.Emotions",
+        "fields": {
+          "id": 4,
+          "name": "Neutral"
+        }
+    },
+    {
+        "model": "trainer_app.Emotions",
+        "fields": {
+          "id": 5,
+          "name": "Sadness"
+        }
+    },
+    {
+        "model": "trainer_app.Emotions",
+        "fields": {
+          "id": 6,
+          "name": "Surprise"
+        }
+    }
+  ]

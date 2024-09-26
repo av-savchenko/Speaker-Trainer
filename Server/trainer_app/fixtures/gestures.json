@@ -1,0 +1,23 @@
+[
+    {
+      "model": "trainer_app.Gestures",
+      "fields": {
+        "id": 1,
+        "name": "Inactive"
+      }
+    },
+    {
+        "model": "trainer_app.Gestures",
+        "fields": {
+          "id": 2,
+          "name": "Medium"
+        }
+    },
+    {
+        "model": "trainer_app.Gestures",
+        "fields": {
+          "id": 3,
+          "name": "Active"
+        }
+    }
+]

@@ -1,0 +1,41 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+    <meta charset="UTF-8">
+    <title>Parameters percentages</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'barplot_style.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'vanishing_text.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'button.css' %}">
+  </head>
+  <body>
+    <h1>Использование параметров анализа</h1>
+    <p class="vanishing" style="font-size: 18px">На данных графиках можно ознакомиться с частотой использования параметров подсистем
+      обработки речи и компьютерного зрения.<br />Частота использования приведена в {{type_for_text}}.<br />
+      Общее число загруженных видео: {{all_files}}</p>
+
+    <a href="?type={{button_ref_value}}" class="button">{{ button_value }}</a>
+    <a href="{{home_page}}" class="button">Вернуться в главное меню статистики</a>
+
+    <h2>Speech Processing Subsystem</h2>
+    <div class="bar-chart">
+      {% for parameter in speech_processing %}
+        <div class='item' style="--clr: {{parameter.color}}; --val: {{parameter.param_value}}">
+          <div class="label">{{parameter.param_name}}</div>
+          <div class="value">{{parameter.param_value_name}}</div>
+        </div>
+      {% endfor %}
+    </div>
+
+    <h2>Computer Vision Subsystem</h2>
+    <div class="bar-chart">
+      {% for parameter in computer_vision %}
+        <div class='item' style="--clr: {{parameter.color}}; --val: {{parameter.param_value}}">
+          <div class="label">{{parameter.param_name}}</div>
+          <div class="value">{{parameter.param_value_name}}</div>
+        </div>
+      {% endfor %}
+    </div>
+
+  </body>
+</html>
