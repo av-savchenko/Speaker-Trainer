@@ -2,7 +2,7 @@
 This repository contains code for the paper "SpeakerTrainer: A Multimodal Tool For Training Presentation Skills on Mobile Devices"
 
 Our mobile client-server application "SpeakerTrainer":
-- mobile client application is located in the foloder MobileApp
+- mobile client application is located in the folder MobileApp
 - server code is located in the folder Server
 - experimental ipynb files are availeble in the Experiments folder. It is recommended to run [SpeakerTrainer.ipynb](Experiments/SpeakerTrainer.ipynb)
 
