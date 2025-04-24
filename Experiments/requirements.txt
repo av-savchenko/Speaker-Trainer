@@ -1,0 +1,16 @@
+notebook
+torch
+pytorch_lightning
+mediapipe
+hsemotion
+cvzone
+whisper_timestamped
+aniemore
+pystoi
+pydub
+noisereduce
+scikit-learn==1.1.3
+fastai
+moviepy==1.0.3
+nltk
+librosa
