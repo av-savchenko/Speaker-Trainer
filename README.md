@@ -4,7 +4,7 @@ This repository contains code for the paper "SpeakerTrainer: A Multimodal Tool F
 Our mobile client-server application "SpeakerTrainer":
 - mobile client application is located in the folder MobileApp
 - server code is located in the folder Server
-- experimental ipynb files are availeble in the Experiments folder. It is recommended to run [SpeakerTrainer.ipynb](Experiments/SpeakerTrainer.ipynb)
+- experimental ipynb files are availeble in the Experiments folder. It is recommended to run [SpeakerTrainer.ipynb](Experiments/SpeakerTrainer.ipynb)[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/av-savchenko/Speaker-Trainer/blob/main/Experiments/SpeakerTrainer.ipynb)
 
 To run te app, it is necessary to put a directory with required files for speech processing unit into the folder Server/trainer_app
 
