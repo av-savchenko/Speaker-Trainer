@@ -1,7 +1,9 @@
 aniemore
+curl_cffi
 cvzone==1.6.1
 emotiefflib[all]
 fastai==2.7.18
+g4f
 librosa
 mediapipe==0.10.20
 moviepy==1.0.3
